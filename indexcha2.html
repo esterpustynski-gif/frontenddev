@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Your name: <input id="user" type="text">
+    </p>
+    <p>
+         How tired are you on the scale from 1 to 5?: <input id="tired" type="text">
+    </p>
+    <p id="output">
+        <output id="useroutput"></output>
+        <output id="energyoutput"></output>
+    </p>
+ <button onclick="response()">Get my charge level!</button>
+ <script>
+    user = document.getElementById("user").value;
+    tired = document.getElementById("tired").value;
+ </script>
+ <script src="scriptcha2.js"></script>
+</body>
+</html>
